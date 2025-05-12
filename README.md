@@ -1,15 +1,57 @@
 # Filter_App
-Most users and learners lack a simple, intuitive tool that visually demonstrates core image 
-processing operations such as filtering, edge detection, and transformations (rotation, 
-translation). While OpenCV provides these functionalities programmatically, this tool bridges 
-the gap with a user-friendly GUI for practical, hands-on experimentation.
-The project introduces "Filter App", a desktop-centric image processing platform that supports 
-various image manipulations including cartoon stylization, Gaussian blur, edge detection, 
-rotation, and translation. With a foundation in Python and OpenCV, and a GUI built with Tkinter, 
-the app serves as an interactive image manipulation environment for students and developers 
-interested in real-time transformations.
-# System Data Flow
+🖼️ Image Processing GUI with OpenCV
+A simple desktop application built with Python, Tkinter, and OpenCV that allows users to upload images, apply various image processing filters, and visualize the results instantly.
+
+📌 Features
+Upload image through GUI
+-Apply processing operations:
+-Cartoon effect
+-Blur
+-Edge detection
+-Rotation
+-Translation
+-View the result in real time
+-User-friendly interface
+
+📌 System Data Flow
 1-User Input (Upload Image via GUI)
 2-Select Operation (Cartoon, Blur, Edge, Rotate, Translate)
 3-Apply Image Processing(OpenCV-based Transformation)
 4-Display Result (Updated Image Shown in GUI Panel)
+
+🚀 How to Run
+Make sure you have Python 3.x installed.
+
+-Install the required dependencies:
+pip install opencv-python pillow
+
+-Run the application:
+python app.py
+
+🧪 Before & After Example
+🔹 1. Without GUI (Direct Processing)
+Image processed using Python script directly without GUI.
+
+Original vs Processed:
+
+C:\Users\DELL\OneDrive\Desktop
+
+
+🔸 2. With GUI Interface
+Image uploaded and transformed via the application GUI.
+
+Original vs Processed (via GUI):
+
+C:\Users\DELL\OneDrive\Desktop
+
+
+🛠️ Built With
+-Python 3.x
+-Tkinter
+-OpenCV
+-Pillow
+
+📄 License
+This project is licensed under the MIT License.
+
+
