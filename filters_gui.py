@@ -67,6 +67,7 @@ img_original = None
 
 root = Tk()
 root.title("Image Filter App")
+root.geometry("400x300")
 
 panel = tk.Label(root)
 panel.pack()
