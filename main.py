@@ -22,7 +22,7 @@ translated_image = cv2.warpAffine(image_rgb, translation_matrix, (image_rgb.shap
 edges = cv2.Canny(image_rgb, 100, 700)
 
 # --- Strong Gaussian Blur ---
-blurred = cv2.GaussianBlur(image, (25, 25), 0)
+blurred = cv2.GaussianBlur(image, (51, 51), 0)
 blurred_rgb = cv2.cvtColor(blurred, cv2.COLOR_BGR2RGB)
 
 # --- Cartoon Effect ---
