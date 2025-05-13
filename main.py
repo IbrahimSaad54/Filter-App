@@ -28,9 +28,7 @@ blurred_rgb = cv2.cvtColor(blurred, cv2.COLOR_BGR2RGB)
 # --- Cartoon Effect ---
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray_blurred = cv2.medianBlur(gray, 5)
-edges_cartoon = cv2.adaptiveThreshold(gray_blurred, 255,
-                                      cv2.ADAPTIVE_THRESH_MEAN_C,
-                                      cv2.THRESH_BINARY, 9, 9)
+edges_cartoon = cv2.adaptiveThreshold(gray_blurred, 255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY, 9, 9)
 color = cv2.bilateralFilter(image, 9, 300, 300)
 cartoon = cv2.bitwise_and(color, color, mask=edges_cartoon)
 cartoon_rgb = cv2.cvtColor(cartoon, cv2.COLOR_BGR2RGB)
