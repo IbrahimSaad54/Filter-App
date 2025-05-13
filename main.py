@@ -54,7 +54,7 @@ axs[1, 1].set_title('Blurred Image')
 axs[1, 2].imshow(cartoon_rgb)
 axs[1, 2].set_title('Cartoon Effect')
 
-# Remove axis ticks
+# --Remove axis ticks--
 for ax in axs.flatten():
     ax.set_xticks([])
     ax.set_yticks([])
