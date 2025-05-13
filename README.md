@@ -34,7 +34,7 @@ Image processed using Python script directly without GUI.
 
 Original vs Processed:
 
-C:\Users\DELL\OneDrive\Desktop
+![Image](https://github.com/user-attachments/assets/1c70cefe-633d-452f-aeca-6058847d414b)
 
 
 🔸 2. With GUI Interface
@@ -42,7 +42,7 @@ Image uploaded and transformed via the application GUI.
 
 Original vs Processed (via GUI):
 
-C:\Users\DELL\OneDrive\Desktop
+![Image](https://github.com/user-attachments/assets/9bbc9a17-d7dd-46d7-9f61-ba7eb74b5fe8)
 
 
 🛠️ Built With
